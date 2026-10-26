@@ -10,14 +10,15 @@ nav_order: 1
   .papers-list ol.bibliography {
     list-style: none;
     padding: 0;
+    border-bottom: 1px solid #fff;
   }
 
   .papers-list h2.bibliography {
     display: block;
     color: var(--global-text-color, inherit);
     font-size: 1.5rem;
-    border-top: 1px solid var(--global-divider-color, currentColor);
-    border-bottom: 1px solid var(--global-divider-color, currentColor);
+    border-top: 1px solid #fff;
+    border-bottom: none;
     margin-top: 2rem;
     margin-bottom: 1.25rem;
     padding: 0.75rem 0;
